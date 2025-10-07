@@ -112,13 +112,10 @@ export default function ProfilePage() {
           image_url,
           created_at,
           user_id,
-          profiles!inner (
-            id,
-            handle,
-            name,
-            avatar_url
+          profiles:profiles!posts_user_id_fkey (
+            id, handle, name, avatar_url
           )
-        `)
+        `) // note: no !inner (LEFT join)
         .eq('user_id', userId)
         .eq('is_deleted', false)
         .order('created_at', { ascending: false })

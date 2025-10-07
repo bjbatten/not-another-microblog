@@ -59,13 +59,13 @@ export default function HomePage() {
           image_url,
           created_at,
           user_id,
-          profiles!inner (
+          profiles:profiles!posts_user_id_fkey (
             id,
             handle,
             name,
             avatar_url
           )
-        `)
+        `) // note: no !inner here
         .in('user_id', followingIds)
         .eq('is_deleted', false)
         .order('created_at', { ascending: false })
