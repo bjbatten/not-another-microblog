@@ -28,7 +28,7 @@ export function Navigation() {
               <div className="w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center">
                 <Twitter className="w-5 h-5 text-white" />
               </div>
-              <span className="font-bold text-xl hidden sm:inline">Micro Twitter</span>
+              <span className="font-bold text-xl hidden sm:inline">Micro Blog</span>
             </Link>
             <div className="flex gap-2">
               <Link href="/">

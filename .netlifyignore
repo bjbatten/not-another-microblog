@@ -1,3 +1,4 @@
+.netlify/
 .next/
 dist/
 build/

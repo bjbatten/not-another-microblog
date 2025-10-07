@@ -7,8 +7,8 @@ import { Toaster } from '@/components/ui/sonner';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Micro Twitter - Share your thoughts',
-  description: 'A Twitter-like social media platform',
+  title: 'Micro Blog - Share your thoughts',
+  description: 'A Blog-like social media platform',
 };
 
 export default function RootLayout({

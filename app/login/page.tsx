@@ -43,7 +43,7 @@ export default function LoginPage() {
             </div>
           </div>
           <CardTitle className="text-2xl">Welcome back</CardTitle>
-          <CardDescription>Sign in to your Micro Twitter account</CardDescription>
+          <CardDescription>Sign in to your Micro Blog account</CardDescription>
         </CardHeader>
         <form onSubmit={handleSubmit}>
           <CardContent className="space-y-4">
