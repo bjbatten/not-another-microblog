@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { usePathname, useRouter } from 'next/navigation';
-import { Home, User, LogOut, Twitter } from 'lucide-react';
+import { Home, User, LogOut, Megaphone } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { useAuth } from '@/contexts/AuthContext';
@@ -26,7 +26,7 @@ export function Navigation() {
           <div className="flex items-center gap-8">
             <Link href="/" className="flex items-center gap-2">
               <div className="w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center">
-                <Twitter className="w-5 h-5 text-white" />
+                <Megaphone className="w-5 h-5 text-white" />
               </div>
               <span className="font-bold text-xl hidden sm:inline">Micro Blog</span>
             </Link>

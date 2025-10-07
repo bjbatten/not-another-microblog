@@ -1,8 +1,8 @@
 /*
-  # Micro Twitter Database Schema
+  # Micro Blog Database Schema
 
   ## Overview
-  Complete schema for a Twitter-like social media platform with authentication,
+  Complete schema for a Blog-like social media platform with authentication,
   posts, follows, likes, and admin moderation capabilities.
 
   ## New Tables

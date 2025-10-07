@@ -9,7 +9,7 @@ import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { Alert, AlertDescription } from '@/components/ui/alert';
-import { Twitter } from 'lucide-react';
+import { Megaphone } from 'lucide-react'
 
 export default function LoginPage() {
   const router = useRouter();
@@ -39,7 +39,7 @@ export default function LoginPage() {
         <CardHeader className="space-y-4 text-center">
           <div className="flex justify-center">
             <div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center">
-              <Twitter className="w-7 h-7 text-white" />
+              <Megaphone className="w-7 h-7 text-white" />
             </div>
           </div>
           <CardTitle className="text-2xl">Welcome back</CardTitle>
